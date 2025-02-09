@@ -82,6 +82,11 @@ return [
     'extension/<vendorName:[\w\-\.]+>/<name:[\w\-\.]+>/files/<filename>' => 'extension/download',
     'extension/<name:[A-z][A-z0-9\-]*>/files/<filename>' => 'extension/download',
     'extension/<vendorName:[\w\-\.]+>/<name:[\w\-\.]+>' => 'extension/view',
+
+    // content reporting
+
+    'reports/<action:[\w-]+>' => 'report/<action>',
+    
     'extension/<name:[A-z][A-z0-9\-]*>' => 'extension/view',
     'extensions' => 'extension/index',
     'extensions/<action:[\w\-]+>' => 'extension/<action>',

@@ -12,6 +12,24 @@ use yii\db\ActiveQuery;
 class CommentQuery extends ActiveQuery
 {
     /**
+     * @inheritdoc
+     * @return Comment[]|array
+     */
+    public function all($db = null)
+    {
+        return parent::all($db);
+    }
+
+    /**
+     * @inheritdoc
+     * @return Comment|array|null
+     */
+    public function one($db = null)
+    {
+        return parent::one($db);
+    }
+
+    /**
      * @return $this
      */
     public function active()
