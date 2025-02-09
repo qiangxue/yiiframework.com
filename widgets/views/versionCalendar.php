@@ -84,8 +84,8 @@ use yii\helpers\Html; ?>
 	<g class="branch-labels">
 		<?php foreach ($versions as $branch => $version): ?>
 			<g class="<?= $widget->getBranchSupportState($version) ?>">
-				<rect x="0" y="<?= $version['top'] ?>" width="<?= 0.5 * $marginLeft ?>" height="<?= $branchHeight ?>" />
-				<text x="<?= 0.25 * $marginLeft ?>" y="<?= $version['top'] + (0.5 * $branchHeight) ?>">
+				<rect x="0" y="<?= $version['top'] ?>" width="<?= 0.85 * $marginLeft ?>" height="<?= $branchHeight ?>" />
+				<text x="<?= 0.42 * $marginLeft ?>" y="<?= $version['top'] + (0.5 * $branchHeight) ?>">
 					<?= Html::encode($branch) ?>
 				</text>
 			</g>

@@ -17,7 +17,7 @@ class VersionCalendar extends Widget
 {
     public $versions = [];
 
-    private $marginLeft = 80;
+    private $marginLeft = 100;
     private $marginRight = 50;
     private $headerHeight = 24;
     private $yearWidth = 120;

@@ -100,6 +100,7 @@ use yii\helpers\Html;
                     </tbody>
                 </table>
             </div>
+            ¹ Note: Yii <a href="https://github.com/yiisoft/yii2/discussions/19831#discussioncomment-5858046" target="_blank">2.1</a> was skipped.
         </div>
     </div>
 </div>
